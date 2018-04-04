@@ -14,6 +14,7 @@ import Contato from './Contato';
 import Campanhas from './Campanhas';
 
 class App extends Component {
+
   render() {
     return (
       <div className="App">

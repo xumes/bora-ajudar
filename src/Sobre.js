@@ -2,7 +2,6 @@ import React from 'react'
 
 const Sobre = props => {
     return (
-        <div>
             <section className='page-section about-heading'>
                 <div className='container'>
                     <img className='img-fluid rounded about-heading-img mb-3 mb-lg-0' src='img/about-menor.jpg' alt='' />
@@ -22,7 +21,6 @@ const Sobre = props => {
                     </div>
                 </div>
             </section>
-        </div>
     )
 }
 
