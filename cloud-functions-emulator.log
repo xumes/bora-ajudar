@@ -1,0 +1,294 @@
+2018-04-06T20:32:05.860Z - info: User function triggered, starting execution
+2018-04-06T20:32:06.175Z - info: { checkout: 
+   { code: [ 'B9A173CBF7F737B114861F8AA5A436B1' ],
+     date: [ '2018-04-06T17:32:06.000-03:00' ] } }
+2018-04-06T20:32:06.178Z - error: Unhandled rejection TypeError: Assignment to constant variable.
+    at parse (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/index.js:54:30)
+    at Parser.<anonymous> (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/xml2js/lib/parser.js:303:18)
+    at emitOne (events.js:116:13)
+    at Parser.emit (events.js:211:7)
+    at SAXParser.onclosetag (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/xml2js/lib/parser.js:261:26)
+    at emit (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/sax/lib/sax.js:624:35)
+    at emitNode (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/sax/lib/sax.js:629:5)
+    at closeTag (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/sax/lib/sax.js:889:7)
+    at SAXParser.write (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/sax/lib/sax.js:1436:13)
+    at Parser.exports.Parser.Parser.parseString (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/xml2js/lib/parser.js:322:31)
+    at Parser.parseString (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/xml2js/lib/parser.js:5:59)
+    at exports.parseString (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/xml2js/lib/parser.js:354:19)
+    at request.then.data (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/index.js:49:13)
+    at tryCatcher (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/bluebird/js/release/promise.js:512:31)
+    at Promise._settlePromise (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/bluebird/js/release/promise.js:569:18)
+    at Promise._settlePromise0 (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/bluebird/js/release/promise.js:693:18)
+    at Async._drainQueue (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:789:20)
+2018-04-06T20:32:22.564Z - info: Execution took 16733 ms, finished with status: 'crash'
+2018-04-06T20:32:22.586Z - error: Function worker killed by signal: SIGTERM
+2018-04-06T20:32:47.554Z - info: User function triggered, starting execution
+2018-04-06T20:32:53.641Z - info: { checkout: 
+   { code: [ '72F652823535C7ADD47ACF993BC7204D' ],
+     date: [ '2018-04-06T17:32:53.000-03:00' ] } }
+2018-04-06T20:32:53.645Z - info: Execution took 6094 ms, user function completed successfully
+2018-04-06T20:33:15.690Z - info: Worker for api closed due to file changes.
+2018-04-06T20:38:42.663Z - info: User function triggered, starting execution
+2018-04-06T20:38:43.045Z - info: { checkout: 
+   { code: [ 'C81553E56E6E4015544C8F8B9FABC826' ],
+     date: [ '2018-04-06T17:38:43.000-03:00' ] } }
+2018-04-06T20:38:43.050Z - info: Execution took 388 ms, user function completed successfully
+2018-04-06T20:40:26.875Z - info: Worker for api closed due to file changes.
+2018-04-06T20:41:00.117Z - info: User function triggered, starting execution
+2018-04-06T20:41:00.274Z - error: Unhandled rejection StatusCodeError: 400 - "<?xml version=\"1.0\" encoding=\"ISO-8859-1\" standalone=\"yes\"?><errors><error><code>11029</code><message>Item amount invalid pattern: 1. Must fit the patern: \\d+.\\d{2}</message></error></errors>"
+    at new StatusCodeError (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/request-promise-core/lib/errors.js:32:15)
+    at Request.plumbing.callback (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/request-promise-core/lib/plumbing.js:104:33)
+    at Request.RP$callback [as _callback] (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/request-promise-core/lib/plumbing.js:46:31)
+    at Request.self.callback (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/request/request.js:186:22)
+    at emitTwo (events.js:126:13)
+    at Request.emit (events.js:214:7)
+    at Request.<anonymous> (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/request/request.js:1163:10)
+    at emitOne (events.js:116:13)
+    at Request.emit (events.js:211:7)
+    at IncomingMessage.<anonymous> (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/request/request.js:1085:12)
+    at Object.onceWrapper (events.js:313:30)
+    at emitNone (events.js:111:20)
+    at IncomingMessage.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1055:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+2018-04-06T20:42:00.086Z - info: Execution took 60007 ms, finished with status: 'timeout'
+2018-04-06T20:42:00.111Z - error: Function worker killed by signal: SIGTERM
+2018-04-06T20:52:48.449Z - info: User function triggered, starting execution
+2018-04-06T20:52:48.745Z - info: { checkout: 
+   { code: [ 'AFB7B3347E7E7D3664654F9FA474193E' ],
+     date: [ '2018-04-06T17:52:48.000-03:00' ] } }
+2018-04-06T20:52:48.750Z - info: Execution took 302 ms, user function completed successfully
+2018-04-06T20:53:16.288Z - info: Worker for api closed due to file changes.
+2018-04-06T20:53:38.836Z - info: User function triggered, starting execution
+2018-04-06T20:53:39.067Z - error: Unhandled rejection StatusCodeError: 401 - "Unauthorized"
+    at new StatusCodeError (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/request-promise-core/lib/errors.js:32:15)
+    at Request.plumbing.callback (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/request-promise-core/lib/plumbing.js:104:33)
+    at Request.RP$callback [as _callback] (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/request-promise-core/lib/plumbing.js:46:31)
+    at Request.self.callback (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/request/request.js:186:22)
+    at emitTwo (events.js:126:13)
+    at Request.emit (events.js:214:7)
+    at Request.<anonymous> (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/request/request.js:1163:10)
+    at emitOne (events.js:116:13)
+    at Request.emit (events.js:211:7)
+    at IncomingMessage.<anonymous> (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/request/request.js:1085:12)
+    at Object.onceWrapper (events.js:313:30)
+    at emitNone (events.js:111:20)
+    at IncomingMessage.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1055:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+2018-04-06T20:53:48.302Z - info: Execution took 9498 ms, finished with status: 'crash'
+2018-04-06T20:53:48.323Z - error: Function worker killed by signal: SIGTERM
+2018-04-12T01:38:26.487Z - info: User function triggered, starting execution
+2018-04-12T01:38:28.195Z - info: Execution took 1707 ms, user function completed successfully
+2018-04-12T01:38:41.859Z - info: User function triggered, starting execution
+2018-04-12T01:38:42.016Z - info: Execution took 156 ms, user function completed successfully
+2018-04-12T01:40:20.732Z - info: Worker for api closed due to file changes.
+2018-04-12T01:45:20.787Z - info: User function triggered, starting execution
+2018-04-12T01:45:20.964Z - info: Execution took 177 ms, user function completed successfully
+2018-04-12T01:45:20.965Z - error: Error: Query.once failed: First argument must be a valid event type = "value", "child_added", "child_removed", "child_changed", or "child_moved".
+    at Object.exports.validateEventType (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/@firebase/database/dist/cjs/src/core/util/validation.js:263:19)
+    at Reference.Query.once (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/@firebase/database/dist/cjs/src/api/Query.js:226:22)
+    at app.get (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/index.js:35:6)
+    at Layer.handle [as handle_request] (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/express/lib/router/index.js:275:10)
+    at urlencodedParser (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/body-parser/lib/types/urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/express/lib/router/index.js:317:13)
+    at /Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/body-parser/lib/types/json.js:109:7)
+    at Layer.handle [as handle_request] (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/express/lib/router/index.js:317:13)
+    at /Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/express/lib/router/index.js:275:10)
+2018-04-12T01:45:44.459Z - error: Function worker killed by signal: SIGTERM
+2018-04-12T01:45:48.443Z - info: User function triggered, starting execution
+2018-04-12T01:45:48.613Z - info: Execution took 169 ms, user function completed successfully
+2018-04-12T01:45:48.613Z - error: Error: Query.once failed: First argument must be a valid event type = "value", "child_added", "child_removed", "child_changed", or "child_moved".
+    at Object.exports.validateEventType (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/@firebase/database/dist/cjs/src/core/util/validation.js:263:19)
+    at Reference.Query.once (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/@firebase/database/dist/cjs/src/api/Query.js:226:22)
+    at app.get (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/index.js:35:6)
+    at Layer.handle [as handle_request] (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/express/lib/router/index.js:275:10)
+    at urlencodedParser (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/body-parser/lib/types/urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/express/lib/router/index.js:317:13)
+    at /Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/body-parser/lib/types/json.js:109:7)
+    at Layer.handle [as handle_request] (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/express/lib/router/index.js:317:13)
+    at /Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/express/lib/router/index.js:275:10)
+2018-04-12T01:46:15.968Z - info: User function triggered, starting execution
+2018-04-12T01:46:16.133Z - info: Execution took 167 ms, user function completed successfully
+2018-04-12T01:46:16.134Z - error: Error: Query.once failed: First argument must be a valid event type = "value", "child_added", "child_removed", "child_changed", or "child_moved".
+    at Object.exports.validateEventType (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/@firebase/database/dist/cjs/src/core/util/validation.js:263:19)
+    at Reference.Query.once (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/@firebase/database/dist/cjs/src/api/Query.js:226:22)
+    at app.get (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/index.js:35:6)
+    at Layer.handle [as handle_request] (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/express/lib/router/index.js:275:10)
+    at urlencodedParser (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/body-parser/lib/types/urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/express/lib/router/index.js:317:13)
+    at /Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/body-parser/lib/types/json.js:109:7)
+    at Layer.handle [as handle_request] (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/express/lib/router/index.js:317:13)
+    at /Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/express/lib/router/index.js:275:10)
+2018-04-12T01:49:47.948Z - info: User function triggered, starting execution
+2018-04-12T01:49:49.336Z - info: DataSnapshot {
+  node_: 
+   ChildrenNode {
+     children_: 
+      SortedMap {
+        comparator_: [Function: NAME_COMPARATOR],
+        root_: LLRBEmptyNode {} },
+     priorityNode_: null,
+     indexMap_: IndexMap { indexes_: [Object], indexSet_: [Object] },
+     lazyHash_: '' },
+  ref_: 
+   Reference {
+     repo: 
+      Repo {
+        repoInfo_: [Object],
+        app: [Object],
+        dataUpdateCount: 0,
+        statsListener_: null,
+        eventQueue_: [Object],
+        nextWriteId_: 1,
+        interceptServerDataCallback_: null,
+        onDisconnect_: [Object],
+        persistentConnection_: [Object],
+        stats_: [Object],
+        server_: [Object],
+        statsReporter_: [Object],
+        transactionQueueTree_: [Object],
+        infoData_: [Object],
+        infoSyncTree_: [Object],
+        serverSyncTree_: [Object],
+        __database: [Object] },
+     path: Path { pieces_: [Array], pieceNum_: 0 },
+     queryParams_: 
+      QueryParams {
+        limitSet_: false,
+        startSet_: false,
+        startNameSet_: false,
+        endSet_: false,
+        endNameSet_: false,
+        limit_: 0,
+        viewFrom_: '',
+        indexStartValue_: null,
+        indexStartName_: '',
+        indexEndValue_: null,
+        indexEndName_: '',
+        index_: PriorityIndex {} },
+     orderByCalled_: false },
+  index_: PriorityIndex {} }
+2018-04-12T01:49:49.340Z - info: Execution took 1394 ms, user function completed successfully
+2018-04-12T01:51:06.871Z - info: Worker for api closed due to file changes.
+2018-04-12T01:51:18.405Z - info: User function triggered, starting execution
+2018-04-12T01:51:19.921Z - info: null
+2018-04-12T01:51:19.924Z - info: Execution took 1519 ms, user function completed successfully
+2018-04-12T01:52:16.187Z - info: User function triggered, starting execution
+2018-04-12T01:52:17.553Z - info: { descricao: 'ajude a dar calor a quem tanto necessita, ok?',
+  doado: 0,
+  meta: 200,
+  nome: 'Campanha do Agasalho',
+  subTitulo: 'ajude-nos',
+  tipo: 'dinheiro' }
+2018-04-12T01:52:17.558Z - info: Execution took 1371 ms, user function completed successfully
+2018-04-12T01:52:57.484Z - info: Worker for api closed due to file changes.
+2018-04-12T01:56:20.727Z - info: User function triggered, starting execution
+2018-04-12T01:56:22.106Z - error: (node:62908) UnhandledPromiseRejectionWarning: Unhandled promise rejection (rejection id: 1): ReferenceError: amount is not defined
+2018-04-12T01:56:22.107Z - error: (node:62908) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+2018-04-12T01:57:21.043Z - info: User function triggered, starting execution
+2018-04-12T01:57:22.518Z - info: Execution took 1475 ms, user function completed successfully
+2018-04-12T01:59:00.972Z - info: Worker for api closed due to file changes.
+2018-04-12T01:59:22.881Z - info: User function triggered, starting execution
+2018-04-12T01:59:24.482Z - info: Execution took 1601 ms, user function completed successfully
+2018-04-12T02:00:10.684Z - info: User function triggered, starting execution
+2018-04-12T02:00:12.245Z - info: Execution took 1561 ms, user function completed successfully
+2018-04-12T02:02:12.505Z - info: User function triggered, starting execution
+2018-04-12T02:02:14.041Z - info: Execution took 1536 ms, user function completed successfully
+2018-04-12T02:02:43.339Z - info: User function triggered, starting execution
+2018-04-12T02:02:44.851Z - error: Thu, 12 Apr 2018 02:02:44 GMT express deprecated res.send(status, body): Use res.status(status).send(body) instead at index.js:46:25
+2018-04-12T02:02:44.854Z - error: (node:63024) UnhandledPromiseRejectionWarning: Unhandled promise rejection (rejection id: 1): RangeError: Invalid status code: /campanhas/-L9IBCqjBqe3B02l0s_m
+2018-04-12T02:02:44.854Z - error: (node:63024) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+2018-04-12T02:03:26.548Z - info: User function triggered, starting execution
+2018-04-12T02:03:28.284Z - error: Thu, 12 Apr 2018 02:03:28 GMT express deprecated res.send(status, body): Use res.status(status).send(body) instead at index.js:46:25
+2018-04-12T02:03:28.288Z - error: (node:63032) UnhandledPromiseRejectionWarning: Unhandled promise rejection (rejection id: 1): RangeError: Invalid status code: /campanhas/-L9IBCqjBqe3B02l0s_m
+2018-04-12T02:03:28.288Z - error: (node:63032) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+2018-04-12T02:03:47.268Z - info: Execution took 20749 ms, finished with status: 'crash'
+2018-04-12T02:03:47.295Z - error: Function worker killed by signal: SIGTERM
+2018-04-12T02:04:07.798Z - info: User function triggered, starting execution
+2018-04-12T02:04:09.320Z - info: Execution took 1523 ms, user function completed successfully
+2018-04-12T02:04:21.819Z - info: User function triggered, starting execution
+2018-04-12T02:04:22.132Z - info: Execution took 312 ms, user function completed successfully
+2018-04-12T02:04:27.525Z - info: User function triggered, starting execution
+2018-04-12T02:04:27.843Z - info: Execution took 317 ms, user function completed successfully
+2018-04-12T02:05:42.906Z - info: Worker for api closed due to file changes.
+2018-04-12T02:06:01.308Z - info: User function triggered, starting execution
+2018-04-12T02:06:02.844Z - info: valor doado NaN
+2018-04-12T02:06:03.021Z - info: Execution took 1714 ms, user function completed successfully
+2018-04-12T02:07:33.719Z - info: Worker for api closed due to file changes.
+2018-04-12T02:07:38.720Z - info: User function triggered, starting execution
+2018-04-12T02:07:40.137Z - info: valor doado NaN
+2018-04-12T02:07:40.300Z - info: Execution took 1580 ms, user function completed successfully
+2018-04-12T02:08:33.013Z - info: User function triggered, starting execution
+2018-04-12T02:08:34.469Z - info: { campanhaAtual: 
+   { descricao: 'ajude a dar calor a quem tanto necessita, ok?',
+     doado: '40.00',
+     meta: 200,
+     nome: 'Campanha do Agasalho',
+     subTitulo: 'ajude-nos',
+     tipo: 'dinheiro' },
+  doado: 'NaN' }
+2018-04-12T02:08:34.469Z - info: valor doado NaN
+2018-04-12T02:08:34.631Z - info: Execution took 1621 ms, user function completed successfully
+2018-04-12T02:09:27.538Z - info: User function triggered, starting execution
+2018-04-12T02:09:29.004Z - info: { descricao: 'criei uma campanha bem completa pois eu sei que finalmente, agora vai funcionar',
+  doado: '10',
+  meta: '5000',
+  nome: 'Campanha completa',
+  tipo: 'dinheiro' }
+2018-04-12T02:09:29.005Z - info: valor doado 50
+2018-04-12T02:09:29.168Z - info: Execution took 1632 ms, user function completed successfully
+2018-04-12T02:09:47.397Z - info: User function triggered, starting execution
+2018-04-12T02:09:47.553Z - info: { descricao: 'criei uma campanha bem completa pois eu sei que finalmente, agora vai funcionar',
+  doado: '50.00',
+  meta: '5000',
+  nome: 'Campanha completa',
+  tipo: 'dinheiro' }
+2018-04-12T02:09:47.554Z - info: valor doado 90
+2018-04-12T02:09:47.710Z - info: Execution took 312 ms, user function completed successfully

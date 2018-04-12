@@ -8,7 +8,7 @@ const Header = (props) => {
       <h1 className='site-heading text-center text-white d-none d-lg-block'>
         {/*<!--span className='site-heading-upper text-primary mb-3'>Um super asilo</span>
   <span className='site-heading-lower'>Nossa Senhora de Fátima</span-->*/}
-        <img src='img/logo.png' />
+        <img src='img/logo.png' alt='logo da instituição'/>
       </h1>
 
       <nav className='navbar navbar-expand-lg navbar-dark py-lg-4' id='mainNav'>

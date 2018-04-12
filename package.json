@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "axios": "^0.18.0",
     "firebase": "^4.12.1",
     "re-base": "^3.2.2",
     "react": "^16.3.0",
@@ -15,5 +16,6 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  }
+  },
+  "proxy": "https://bora-ajudar-xumes.firebaseapp.com/"
 }

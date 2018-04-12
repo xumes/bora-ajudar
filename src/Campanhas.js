@@ -1,5 +1,8 @@
 import React, { Component } from 'react'
+import axios from 'axios'
 import base from './base'
+import { request } from 'https'
+import { Redirect } from 'react-router-dom'
 
 class Campanhas extends Component {
     constructor(props) {
@@ -8,6 +11,8 @@ class Campanhas extends Component {
         this.state = {
             campanhas: {}
         }
+
+        this.handleDonate = this.handleDonate.bind(this)
     }
 
     componentDidMount() {
@@ -18,9 +23,21 @@ class Campanhas extends Component {
         })
     }
 
-    renderCampanha(campanha) {
+    handleDonate(id) {
+        console.log(id)
+        axios.post('https://us-central1-bora-ajudar-xumes.cloudfunctions.net/api/donate', {
+            campanha: id,
+            valor: this.valor.value
+        })
+            .then(data => {
+                console.log(data.data)
+                window.location = data.data.url
+            })
+    }
+
+    renderCampanha(id, campanha) {
         return (
-            <section className='page-section'>
+            <section className='page-section' key={id}>
                 <div className='container'>
                     <div className='product-item bg-faded'>
                         <div className='product-item-title d-flex'>
@@ -38,9 +55,16 @@ class Campanhas extends Component {
                                     <div className='progress'>
                                         <div className='progress-bar bg-success' role='progressbar' aria-valuenow='25' aria-valuemin='0' aria-valuemax='100'></div>
                                     </div>
-                                    <p>Meta: R$ 5.000,00 / Atingidos: R$ 2.500,00</p>
+                                    <p>Meta: R$ {campanha.meta} / Atingidos: R$ {campanha.doado}</p>
                                     <div>
-                                        <button className='btn btn-success'>Contribuir</button>
+                                        <select ref={ref => this.valor = ref}>
+                                            <option value="5.00">R$ 5,00</option>
+                                            <option value="10.00">R$ 10,00</option>
+                                            <option value="20.00">R$ 20,00</option>
+                                            <option value="50.00">R$ 50,00</option>
+                                            <option value="100.00">R$ 100,00</option>
+                                        </select>
+                                        <button className='btn btn-success' onClick={() => this.handleDonate(id)}>Contribuir</button>
                                     </div>
                                 </div>}
 
@@ -62,7 +86,6 @@ class Campanhas extends Component {
     }
 
     render() {
-
         return (
             <div>
                 <section className='page-section'>
@@ -88,7 +111,7 @@ class Campanhas extends Component {
                 {
                     Object.keys(this.state.campanhas)
                         .map(key => {
-                            return this.renderCampanha(this.state.campanhas[key])
+                            return this.renderCampanha(key, this.state.campanhas[key])
                         })
                 }
             </div>

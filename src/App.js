@@ -4,7 +4,6 @@ import {
   Route
 } from 'react-router-dom'
 
-import logo from './logo.svg';
 import './App.css';
 import Header from './Header';
 import Home from './Home';
@@ -12,6 +11,8 @@ import Footer from './Footer'
 import Sobre from './Sobre';
 import Contato from './Contato';
 import Campanhas from './Campanhas';
+import Admin from './Admin'
+import Login from './Login';
 
 class App extends Component {
 
@@ -25,6 +26,8 @@ class App extends Component {
             <Route path='/sobre' component={Sobre} />
             <Route path='/campanhas' component={Campanhas} />
             <Route path="/contato" component={Contato} />
+            <Route path='/admin' component={Admin} />
+            <Route path='/login' component={Login} />
             <Footer />
           </div>
         </Router>

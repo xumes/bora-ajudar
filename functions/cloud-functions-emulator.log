@@ -1,0 +1,145 @@
+2018-04-06T17:45:05.947Z - info: User function triggered, starting execution
+2018-04-06T17:45:05.969Z - info: Execution took 22 ms, user function completed successfully
+2018-04-06T17:45:05.973Z - info: Worker for helloWorld closed due to file changes.
+2018-04-06T17:48:52.559Z - info: User function triggered, starting execution
+2018-04-06T17:48:52.570Z - info: Execution took 12 ms, user function completed successfully
+2018-04-06T17:51:34.073Z - info: User function triggered, starting execution
+2018-04-06T17:51:34.084Z - info: Execution took 10 ms, user function completed successfully
+2018-04-06T17:52:38.984Z - info: User function triggered, starting execution
+2018-04-06T17:52:38.986Z - info: Execution took 2 ms, user function completed successfully
+2018-04-06T17:53:34.504Z - info: User function triggered, starting execution
+2018-04-06T17:53:34.506Z - info: Execution took 1 ms, user function completed successfully
+2018-04-06T17:53:39.034Z - info: User function triggered, starting execution
+2018-04-06T17:53:39.034Z - info: Execution took 0 ms, user function completed successfully
+2018-04-06T17:54:05.736Z - info: User function triggered, starting execution
+2018-04-06T17:54:05.739Z - info: Execution took 2 ms, user function completed successfully
+2018-04-06T17:54:36.164Z - info: User function triggered, starting execution
+2018-04-06T17:54:36.166Z - info: Execution took 1 ms, user function completed successfully
+2018-04-06T17:54:42.752Z - info: User function triggered, starting execution
+2018-04-06T17:54:42.753Z - info: Execution took 1 ms, user function completed successfully
+2018-04-06T18:07:20.042Z - info: User function triggered, starting execution
+2018-04-06T18:07:20.057Z - info: Execution took 17 ms, user function completed successfully
+2018-04-06T18:08:00.134Z - info: User function triggered, starting execution
+2018-04-06T18:08:00.138Z - info: Execution took 3 ms, user function completed successfully
+2018-04-06T19:57:21.951Z - info: User function triggered, starting execution
+2018-04-06T19:57:21.959Z - info: Execution took 9 ms, user function completed successfully
+2018-04-06T20:10:24.389Z - info: User function triggered, starting execution
+2018-04-06T20:10:24.397Z - info: Execution took 8 ms, user function completed successfully
+2018-04-06T20:11:39.380Z - info: Worker for api closed due to file changes.
+2018-04-06T20:12:32.115Z - info: User function triggered, starting execution
+2018-04-06T20:12:32.125Z - info: Execution took 10 ms, user function completed successfully
+2018-04-06T20:12:32.126Z - error: ReferenceError: sandbox is not defined
+    at app.post (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/index.js:21:14)
+    at Layer.handle [as handle_request] (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/express/lib/router/index.js:275:10)
+    at urlencodedParser (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/body-parser/lib/types/urlencoded.js:82:7)
+    at Layer.handle [as handle_request] (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/express/lib/router/index.js:317:13)
+    at /Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/body-parser/lib/types/json.js:100:7)
+    at Layer.handle [as handle_request] (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/express/lib/router/index.js:317:13)
+    at /Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/express/lib/router/index.js:275:10)
+    at expressInit (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/express/lib/router/layer.js:95:5)
+2018-04-06T20:13:18.000Z - info: Worker for api closed due to file changes.
+2018-04-06T20:13:18.008Z - info: Worker for api closed due to file changes.
+2018-04-06T20:13:18.038Z - error: Function worker killed by signal: SIGTERM
+2018-04-06T20:13:51.704Z - info: User function triggered, starting execution
+2018-04-06T20:13:51.712Z - info: Execution took 9 ms, user function completed successfully
+2018-04-06T20:13:51.713Z - error: ReferenceError: data is not defined
+    at app.post (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/index.js:32:22)
+    at Layer.handle [as handle_request] (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/express/lib/router/index.js:275:10)
+    at urlencodedParser (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/body-parser/lib/types/urlencoded.js:82:7)
+    at Layer.handle [as handle_request] (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/express/lib/router/index.js:317:13)
+    at /Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/body-parser/lib/types/json.js:100:7)
+    at Layer.handle [as handle_request] (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/express/lib/router/index.js:317:13)
+    at /Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/express/lib/router/index.js:275:10)
+    at expressInit (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/express/lib/router/layer.js:95:5)
+2018-04-06T20:15:04.374Z - info: Worker for api closed due to file changes.
+2018-04-06T20:16:07.402Z - info: User function triggered, starting execution
+2018-04-06T20:16:07.406Z - info: backend...
+2018-04-06T20:16:08.188Z - error: Unhandled rejection StatusCodeError: 401 - "Unauthorized"
+    at new StatusCodeError (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/request-promise-core/lib/errors.js:32:15)
+    at Request.plumbing.callback (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/request-promise-core/lib/plumbing.js:104:33)
+    at Request.RP$callback [as _callback] (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/request-promise-core/lib/plumbing.js:46:31)
+    at Request.self.callback (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/request/request.js:186:22)
+    at emitTwo (events.js:126:13)
+    at Request.emit (events.js:214:7)
+    at Request.<anonymous> (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/request/request.js:1163:10)
+    at emitOne (events.js:116:13)
+    at Request.emit (events.js:211:7)
+    at IncomingMessage.<anonymous> (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/request/request.js:1085:12)
+    at Object.onceWrapper (events.js:313:30)
+    at emitNone (events.js:111:20)
+    at IncomingMessage.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1055:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+2018-04-06T20:16:42.396Z - info: Execution took 35023 ms, finished with status: 'crash'
+2018-04-06T20:16:42.422Z - error: Function worker killed by signal: SIGTERM
+2018-04-06T20:17:09.023Z - info: User function triggered, starting execution
+2018-04-06T20:17:09.030Z - info: backend...
+2018-04-06T20:17:09.304Z - error: Unhandled rejection StatusCodeError: 400 - "<?xml version=\"1.0\" encoding=\"ISO-8859-1\" standalone=\"yes\"?><errors><error><code>11029</code><message>Item amount invalid pattern: 1. Must fit the patern: \\d+.\\d{2}</message></error></errors>"
+    at new StatusCodeError (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/request-promise-core/lib/errors.js:32:15)
+    at Request.plumbing.callback (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/request-promise-core/lib/plumbing.js:104:33)
+    at Request.RP$callback [as _callback] (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/request-promise-core/lib/plumbing.js:46:31)
+    at Request.self.callback (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/request/request.js:186:22)
+    at emitTwo (events.js:126:13)
+    at Request.emit (events.js:214:7)
+    at Request.<anonymous> (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/request/request.js:1163:10)
+    at emitOne (events.js:116:13)
+    at Request.emit (events.js:211:7)
+    at IncomingMessage.<anonymous> (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/request/request.js:1085:12)
+    at Object.onceWrapper (events.js:313:30)
+    at emitNone (events.js:111:20)
+    at IncomingMessage.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1055:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+2018-04-06T20:18:08.954Z - info: Execution took 60007 ms, finished with status: 'timeout'
+2018-04-06T20:18:08.988Z - error: Function worker killed by signal: SIGTERM
+2018-04-06T20:21:10.081Z - info: User function triggered, starting execution
+2018-04-06T20:21:10.083Z - info: backend... 1
+2018-04-06T20:21:10.313Z - error: Unhandled rejection StatusCodeError: 400 - "<?xml version=\"1.0\" encoding=\"ISO-8859-1\" standalone=\"yes\"?><errors><error><code>11029</code><message>Item amount invalid pattern: 1. Must fit the patern: \\d+.\\d{2}</message></error></errors>"
+    at new StatusCodeError (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/request-promise-core/lib/errors.js:32:15)
+    at Request.plumbing.callback (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/request-promise-core/lib/plumbing.js:104:33)
+    at Request.RP$callback [as _callback] (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/request-promise-core/lib/plumbing.js:46:31)
+    at Request.self.callback (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/request/request.js:186:22)
+    at emitTwo (events.js:126:13)
+    at Request.emit (events.js:214:7)
+    at Request.<anonymous> (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/request/request.js:1163:10)
+    at emitOne (events.js:116:13)
+    at Request.emit (events.js:211:7)
+    at IncomingMessage.<anonymous> (/Users/reginaldosantos/dev/lab/react/bora-ajudar/functions/node_modules/request/request.js:1085:12)
+    at Object.onceWrapper (events.js:313:30)
+    at emitNone (events.js:111:20)
+    at IncomingMessage.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1055:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+2018-04-06T20:21:55.912Z - info: Execution took 45861 ms, finished with status: 'crash'
+2018-04-06T20:21:55.938Z - error: Function worker killed by signal: SIGTERM
