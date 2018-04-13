@@ -1,0 +1,83 @@
+[debug] [2018-04-13T19:11:32.806Z] ----------------------------------------------------------------------
+[debug] [2018-04-13T19:11:32.812Z] Command:       /usr/local/Cellar/node@8/8.9.4/bin/node /usr/local/opt/node@8/bin/firebase deploy
+[debug] [2018-04-13T19:11:32.814Z] CLI Version:   3.18.2
+[debug] [2018-04-13T19:11:32.815Z] Platform:      darwin
+[debug] [2018-04-13T19:11:32.815Z] Node Version:  v8.9.4
+[debug] [2018-04-13T19:11:32.816Z] Time:          Fri Apr 13 2018 16:11:32 GMT-0300 (-03)
+[debug] [2018-04-13T19:11:32.816Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-04-13T19:11:32.844Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-04-13T19:11:32.845Z] > authorizing via signed-in user
+[debug] [2018-04-13T19:11:32.848Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/bora-ajudar-xumes  
+  
+ Fri Apr 13 2018 16:11:32 GMT-0300 (-03)
+[debug] [2018-04-13T19:11:34.227Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-13T19:11:34.228Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/bora-ajudar-xumes/tokens  
+  
+ Fri Apr 13 2018 16:11:34 GMT-0300 (-03)
+[debug] [2018-04-13T19:11:34.973Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'bora-ajudar-xumes'...
+[info] 
+[info] i  deploying database, functions, hosting
+[info] i  database: checking rules syntax...
+[debug] [2018-04-13T19:11:40.538Z] >>> HTTP REQUEST PUT https://bora-ajudar-xumes.firebaseio.com/.settings/rules.json?dryRun=true  
+ {
+  "rules": {
+    ".read": true,
+    ".write": "auth !== null"
+  }
+}
+ 
+ Fri Apr 13 2018 16:11:40 GMT-0300 (-03)
+[debug] [2018-04-13T19:11:41.630Z] <<< HTTP RESPONSE 200
+[info] ✔  database: rules syntax for database bora-ajudar-xumes is valid
+[debug] [2018-04-13T19:11:41.633Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase serve --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "firebase-admin": "~5.11.0",
+    "firebase-functions": "^1.0.0",
+    "request": "^2.85.0",
+    "request-promise": "^4.2.2",
+    "xml2js": "^0.4.19"
+  },
+  "private": true
+}
+[info] i  functions: ensuring necessary APIs are enabled...
+[debug] [2018-04-13T19:11:41.635Z] >>> HTTP REQUEST GET https://servicemanagement.googleapis.com/v1/services/cloudfunctions.googleapis.com/projectSettings/bora-ajudar-xumes?view=CONSUMER_VIEW  
+  
+ Fri Apr 13 2018 16:11:41 GMT-0300 (-03)
+[debug] [2018-04-13T19:11:41.636Z] >>> HTTP REQUEST GET https://servicemanagement.googleapis.com/v1/services/runtimeconfig.googleapis.com/projectSettings/bora-ajudar-xumes?view=CONSUMER_VIEW  
+  
+ Fri Apr 13 2018 16:11:41 GMT-0300 (-03)
+[debug] [2018-04-13T19:11:42.979Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: all necessary APIs are enabled
+[debug] [2018-04-13T19:11:43.029Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-13T19:11:43.030Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/bora-ajudar-xumes  
+  
+ Fri Apr 13 2018 16:11:43 GMT-0300 (-03)
+[debug] [2018-04-13T19:11:43.905Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-13T19:11:43.906Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/307460042854:getServerAppConfig  
+  
+ Fri Apr 13 2018 16:11:43 GMT-0300 (-03)
+[debug] [2018-04-13T19:11:45.133Z] <<< HTTP RESPONSE 200
+[info] i  functions: preparing functions directory for uploading...
+[debug] [2018-04-13T19:11:45.138Z] >>> HTTP REQUEST GET https://runtimeconfig.googleapis.com/v1beta1/projects/bora-ajudar-xumes/configs  
+  
+ Fri Apr 13 2018 16:11:45 GMT-0300 (-03)
+[debug] [2018-04-13T19:11:46.413Z] <<< HTTP RESPONSE 200
+[info] i  functions: packaged functions (47.62 KB) for uploading
+[debug] [2018-04-13T19:11:47.647Z] >>> HTTP REQUEST POST https://cloudfunctions.googleapis.com/v1/projects/bora-ajudar-xumes/locations/us-central1/functions:generateUploadUrl  
+  
+ Fri Apr 13 2018 16:11:47 GMT-0300 (-03)
