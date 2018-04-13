@@ -1,4 +1,4 @@
-###Bora Ajudar
+# Bora Ajudar
 
 - Aplicativo desenvolvido em React.js com Node.js durante o HandsOn do DevPleno.
 - Utiliza o Firebase como Hospedagem, Autenticação e Banco de Dados.
@@ -19,7 +19,7 @@ The purpose of this was to develop an app to guide me on learn React.js and be u
 
 
 
-###The Demo app is available on
+# The Demo app is available on
 
 [Links](https://bora-ajudar-xumes.firebaseapp.com/)
 
@@ -28,4 +28,4 @@ The purpose of this was to develop an app to guide me on learn React.js and be u
 [My Github account](http://github.com/xumes/) 
 
 
-###Thank you
+# Thank you
