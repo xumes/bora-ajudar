@@ -36,6 +36,7 @@ class Campanhas extends Component {
     }
 
     renderCampanha(id, campanha) {
+        const porcentagem = (parseFloat(campanha.doado) / parseFloat(campanha.meta)) * 100
         return (
             <section className='page-section' key={id}>
                 <div className='container'>
@@ -53,11 +54,12 @@ class Campanhas extends Component {
                                 <p className='mb-0'>{campanha.descricao}</p>
                                 {campanha.tipo === 'dinheiro' && <div>
                                     <div className='progress'>
-                                        <div className='progress-bar bg-success' role='progressbar' aria-valuenow='25' aria-valuemin='0' aria-valuemax='100'></div>
+                                        <div style={{ width: parseInt(porcentagem) + '%' }} className='progress-bar bg-success' role='progressbar' aria-valuenow='25' aria-valuemin='0' aria-valuemax='100'></div>
                                     </div>
-                                    <p>Meta: R$ {campanha.meta} / Atingidos: R$ {campanha.doado}</p>
+                                    <p>Meta: R$ {parseFloat(campanha.meta).toFixed(2)} / Atingidos: R$ {parseFloat(campanha.doado).toFixed(2)}</p>
                                     <div>
                                         <select ref={ref => this.valor = ref}>
+                                            <option value="2.00">R$ 2,00</option>
                                             <option value="5.00">R$ 5,00</option>
                                             <option value="10.00">R$ 10,00</option>
                                             <option value="20.00">R$ 20,00</option>

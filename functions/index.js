@@ -7,8 +7,8 @@ const cors = require('cors')
 const app = express()
 
 app.use(cors())
-// admin.initializeApp(functions.config().firease) //start firebase on our app
-admin.initializeApp()
+admin.initializeApp(functions.config().firease) //start firebase on our app
+//admin.initializeApp()
 
 const request = require('request-promise')
 const parse = require('xml2js').parseString
