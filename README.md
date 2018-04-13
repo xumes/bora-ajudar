@@ -21,7 +21,7 @@ The purpose of this was to develop an app to guide me on learn React.js and be u
 
 # The Demo app is available on
 
-[Links](https://bora-ajudar-xumes.firebaseapp.com/)
+[Bora Ajudar](https://bora-ajudar-xumes.firebaseapp.com/)
 
 [My Online Portfolio](http://reginaldosantos.com.br/) 
 
